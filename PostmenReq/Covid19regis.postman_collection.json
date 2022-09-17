@@ -1,0 +1,80 @@
+{
+	"info": {
+		"_postman_id": "0e523ca3-f59e-4fd6-b927-3683f136dd60",
+		"name": "Covid19regis",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "11988356"
+	},
+	"item": [
+		{
+			"name": "http://localhost:3000/Patient/regis",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "IDnumber",
+							"value": "23515",
+							"type": "text"
+						},
+						{
+							"key": "name",
+							"value": "siriwan",
+							"type": "text"
+						},
+						{
+							"key": "surname",
+							"value": "Tongbai",
+							"type": "text"
+						},
+						{
+							"key": "sex",
+							"value": "female",
+							"type": "text"
+						},
+						{
+							"key": "age",
+							"value": "28",
+							"type": "text"
+						},
+						{
+							"key": "province",
+							"value": "HadYai",
+							"type": "text"
+						},
+						{
+							"key": "district",
+							"value": "ppp",
+							"type": "text"
+						},
+						{
+							"key": "phone",
+							"value": "024-1456-7889",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "Siriwan@gmail.com",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/Patient/regis",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"Patient",
+						"regis"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
